@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> Coronavirus update </title>
+    <link rel="stylesheet" href="Covid_style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="header">
+        <div class="glyphicon" style="font-size:40px;cursor:pointer; position: fixed; left:15px; top:10px; color:#e1e1e1" onclick="openNav()">&#xe056; </div>
+        <div class="name"><span style="color:white">CORONA</span><span style="color:red">0</span><span style="color:white">METER</span></div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="Covid_frontpage.html">Home</a>
+      <a href="News.html">News</a>
+      <a href="Prevention.html">Prevention</a>
+      <a href="Infected.html">Infected</a>
+      <a href="Contact.html">Contact</a>
+    </div>
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "340px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementByClass("header").style.padding = "30px 10px";
+      } else {
+        document.getElementByClass("header").style.padding = "80px 10px";
+      }
+    }
+    </script>
+    <div class="pandemic">COVID-19 CORONAVIRUS PANDEMIC</div>
+    <div class="lastupdate">Last updated: October 30, 2020, 14:30 GMT</div>
+    <div class="bar"></div>
+    <div class="bar" style="left:90%"></div>
+    <div class="prevention">
+      <h2>Protect yourself and others from COVID-19</h2>
+      <hr>
+      <p>If COVID-19 is spreading in your community, stay safe by taking some simple precautions, such as physical distancing, wearing a mask, keeping rooms well ventilated, avoiding crowds, cleaning your hands, and coughing into a bent elbow or tissue. Check local advice where you live and work.<strong> Do it all!</strong></p>
+      <h2>What to do to keep yourself and others safe from COVID-19</h2>
+      <hr>
+      <ul>
+        <li><strong>Maintain at least a 1-metre distance between yourself and others</strong> to reduce your risk of infection when they cough, sneeze or speak. Maintain an even greater distance between yourself and others when indoors. The further away, the better.</li>
+        <li><strong>Make wearing a mask a normal part of being around other people.</strong></li>
+      </ul>
+      <p>Here are the basic how to wear a mask:</p>
+      <ul>
+        <li>Clean your hands before you put your mask on, as well as before and after you take it off.</li>
+        <li>Make sure it covers both your nose, mouth and chin.</li>
+      </ul>
+      <p>Here are some specifics on what type of mask to wear and when, depending on how much virus is circulating where you live, where you go and who you are.</p>
+      <ul>
+        <li>Wear a fabric mask unless you’re in a particular risk group. This is especially important when you can’t stay physically distanced, particularly in crowded and poorly ventilated indoor settings.</li>
+        <li>Wear a medical/surgical mask if you:</li>
+        <ul>
+          <li>Are over 60,</li>
+          <li>Have underlying medical conditions,</li>
+          <li>Are feeling unwell,</li>
+          <li>and/orAre looking after an ill family member. </li>
+        </ul>
+        <li>For more public advice on masks, read our Q&A and watch our  videos. There is also a Q&A focused on masks and children.</li>
+        <li>For health workers, medical masks are essential personal protective equipment when engaging with patients with suspected, probable or confirmed COVID-19. Respirator masks (such as FFP2, FFP3, N95, N99) should be used in settings where procedures generating aerosols are performed and must be fitted to ensure the right size is worn.</li>
+        <li>Find out more about the science of how COVID-19 infects people and our bodies react by watching or reading this interview.</li>
+      </ul>
+      <h2>How to make your environment safer</h2>
+      <hr>
+      <ul>
+        <li><strong>Avoid the 3Cs: spaces that are closed, crowded or involve close contact.</strong></li>
+        <ul>
+          <li>Outbreaks have been reported in restaurants, choir practices, fitness classes, nightclubs, offices and places of worship where people have gathered, often in crowded indoor settings where they talk loudly, shout, breathe heavily or sing.</li>
+          <li>The risks of getting COVID-19 are higher in crowded and inadequately ventilated spaces where infected people spend long periods of time together in close proximity. These environments are where the virus appears to spreads by respiratory droplets or aerosols more efficiently, so taking precautions is even more important.</li>
+        </ul>
+        <li><strong>Meet people outside.</strong> Outdoor gatherings are safer than indoor ones, particularly if indoor spaces are small and without outdoor air coming in.</li>
+        <ul>
+          <li>For more information on how to hold events like family gatherings, children’s football games and family occasions, read our Q&A on small public gatherings.</li>
+        </ul>
+        <li><strong>Avoid crowded or indoor settings</strong> but if you can’t, then take precautions:</li>
+        <ul>
+          <li><strong>Open a window.</strong> Increase the amount of ‘natural ventilation’ when indoors.</li>
+          <li>WHO has published Q&As on ventilation and air conditioning for both the general public and people who manage public spaces and buildings.</li>
+          <li><strong>Wear a mask</strong> (see above for more details).</li>
+        </ul>
+      </ul>
+      <h2>Don’t forget the basics of good hygiene</h2>
+      <hr>
+      <ul>
+        <li><strong>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</strong> This eliminates germs including viruses that may be on your hands.</li>
+        <li><strong>Avoid touching your eyes, nose and mouth.</strong> Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and infect you.</li>
+        <li><strong>Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze.</strong> Then dispose of the used tissue immediately into a closed bin and wash your hands. By following good ‘respiratory hygiene’, you protect the people around you from viruses, which cause colds, flu and COVID-19.</li>
+        <li><strong>Clean and disinfect surfaces frequently especially those which are regularly touched</strong>, such as door handles, faucets and phone screens.</li>
+      </ul>
+      <h2>What to do if you feel unwell</h2>
+      <hr>
+      <ul>
+        <li><strong>Know the full range of symptoms of COVID-19.</strong> The most common symptoms of COVID-19 are fever, dry cough, and tiredness. Other symptoms that are less common and may affect some patients include loss of taste or smell, aches and pains, headache, sore throat, nasal congestion, red eyes, diarrhoea, or a skin rash.</li>
+        <li><strong>Stay home and self-isolate even if you have minor symptoms such as cough, headache, mild fever,</strong> until you recover. Call your health care provider or hotline for advice. Have someone bring you supplies. If you need to leave your house or have someone near you, wear a medical mask to avoid infecting others.</li>
+        <li><strong>If you have a fever, cough and difficulty breathing, seek medical attention immediately. Call by telephone first, if you can</strong> and follow the directions of your local health authority.</li>
+        <li><strong>Keep up to date on the latest information from trusted sources, such as WHO or your local and national health authorities.</strong> Local and national authorities and public health units are best placed to advise on what people in your area should be doing to protect themselves.</li>
+      </ul>
+    </div>
+</body>

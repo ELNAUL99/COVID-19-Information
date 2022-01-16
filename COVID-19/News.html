@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> Coronavirus update </title>
+    <link rel="stylesheet" href="Covid_style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="header">
+        <div class="glyphicon" style="font-size:40px;cursor:pointer; position: fixed; left:15px; top:10px; color:#e1e1e1" onclick="openNav()">&#xe056; </div>
+        <div class="name"><span style="color:white">CORONA</span><span style="color:red">0</span><span style="color:white">METER</span></div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="Covid_frontpage.html">Home</a>
+      <a href="News.html">News</a>
+      <a href="Prevention.html">Prevention</a>
+      <a href="Infected.html">Infected</a>
+      <a href="Contact.html">Contact</a>
+    </div>
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "340px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    <div class="pandemic">COVID-19 CORONAVIRUS PANDEMIC</div>
+    <div class="lastupdate">Last updated: October 30, 2020, 14:30 GMT</div>
+    <div class="bar"></div>
+    <div class="bar" style="left:90%"></div>
+    <main class="prevention">
+      <div>
+        <a href="https://www.nytimes.com/live/2020/10/30/world/covid-19-coronavirus-updates"><img src="merlin_179052618_88e32da8-5167-4ab8-9c64-58718cb4c4e9-superJumbo.jpg" width="246px" height="175px" style="float:right"></a>
+        <h2>
+          <a href="https://www.nytimes.com/live/2020/10/30/world/covid-19-coronavirus-updates">Covid-19: U.S. Breaks Daily Record With Over 99,000 New Cases as Surge Quickens</a>
+        </h2>
+        <p class="descript">Nearly two dozen states are reporting their worst weeks ever for new cases. The S&P 500 had it worst week since March. Belgium, its infection...</p>
+        <p class="time">14 mins ago</p>
+      </div>
+      <div>
+        <a href="https://www.bbc.com/news/world-54422023"><img src="_114771339_mediaitem114771336.jpg" width="246px" height="175px" style="float:right"></a>
+        <h2>
+          <a href="https://www.bbc.com/news/world-54422023">Covid-19 updates: One in 10 worldwide may have had virus, WHO says</a>
+        </h2>
+        <p class="descript">One in 10 people around the world may have contracted Covid-19, the World Health Organization said, at a special meeting of WHO leaders...</p>
+        <p class="time">2 hours ago</p>
+      </div>
+      <div>
+        <a href="https://www.usnews.com/news/health-news/articles/2020-10-29/smog-could-increase-covid-19-deaths-by-15-worldwide"><img src="download.jpeg" width="246px" height="175px" style="float:right"></a>
+        <h2>
+          <a href="https://www.usnews.com/news/health-news/articles/2020-10-29/smog-could-increase-covid-19-deaths-by-15-worldwide">Smog could increase Covid-19 deaths by 15% worldwide</a>
+        </h2>
+        <p class="descript">Long-term exposure to air pollution is tied to an increased risk of dying from COVID-19, a new study finds...</p>
+        <p class="time">5 hours ago</p>
+      </div>
+    </main>
+</body>

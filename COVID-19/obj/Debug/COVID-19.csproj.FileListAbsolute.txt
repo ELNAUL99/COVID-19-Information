@@ -1,0 +1,9 @@
+/Users/macbook/Desktop/COVID-19/COVID-19/bin/COVID-19.dll
+/Users/macbook/Desktop/COVID-19/COVID-19/bin/COVID-19.pdb
+/Users/macbook/Desktop/COVID-19/COVID-19/obj/Debug/COVID-19.csprojAssemblyReference.cache
+/Users/macbook/Desktop/COVID-19/COVID-19/obj/Debug/COVID-19.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/COVID-19/COVID-19/obj/Debug/COVID-19.dll
+/Users/macbook/Desktop/COVID-19/COVID-19/obj/Debug/COVID-19.pdb
+/Users/macbook/Desktop/COVID-19/COVID-19/bin/Newtonsoft.Json.dll
+/Users/macbook/Desktop/COVID-19/COVID-19/bin/Newtonsoft.Json.xml
+/Users/macbook/Desktop/COVID-19/COVID-19/obj/Debug/COVID-19.csproj.CopyComplete

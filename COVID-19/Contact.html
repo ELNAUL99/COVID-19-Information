@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> Coronavirus update </title>
+    <link rel="stylesheet" href="Covid_style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="header">
+        <div class="glyphicon" style="font-size:40px;cursor:pointer; position: fixed; left:15px; top:10px; color:#e1e1e1" onclick="openNav()">&#xe056; </div>
+        <div class="name"><span style="color:white">CORONA</span><span style="color:red">0</span><span style="color:white">METER</span></div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="Covid_frontpage.html">Home</a>
+      <a href="News.html">News</a>
+      <a href="Prevention.html">Prevention</a>
+      <a href="Infected.html">Infected</a>
+      <a href="Contact.html">Contact</a>
+    </div>
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "340px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    <div class="pandemic">COVID-19 CORONAVIRUS PANDEMIC</div>
+    <div class="lastupdate">Last updated: October 30, 2020, 14:30 GMT</div>
+    <div class="bar"></div>
+    <div class="bar" style="left:90%"></div>
+    <div id="contactpage">
+      <p class="number"><b>CONTACT US</b></p>
+      <p>Please fill this form in a decent manner</p>
+      <form>
+        <div><label>Full Name <span style="color:red">*</span></label></div>
+        <div><input type="text" name="FullName" class="type1"></div>
+        <div><label>E-Mail <span style="color:red">*</span></label></div>
+        <div><input type="text" name="E-Mail" class="type1"></div>
+        <p class="example">example@example.com</p>
+        <div><label>Message<span style="color:red">*</span></label></div>
+        <div><input type="text" name="Message" class="type2"></div>
+        <div><input type="submit" name="Submit" class="submit"></div>
+      </form>
+    </div>
+</body>
